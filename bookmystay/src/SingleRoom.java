@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+class SingleRoom extends Room{
 
-public class SingleRoom {
+    public SingleRoom(){
+        super("Single Room",1,200,100);
+    }
 }
